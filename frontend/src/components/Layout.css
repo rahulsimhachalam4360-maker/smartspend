@@ -1,0 +1,73 @@
+/* MAIN LAYOUT */
+.layout {
+  display: flex;
+}
+
+/* SIDEBAR FIXED ON LEFT */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #081225;
+  color: white;
+  padding: 30px 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.35);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.sidebar-logo {
+  font-size: 27px;
+  font-weight: 800;
+  color: #00c8ff;
+  margin-bottom: 25px;
+  text-shadow: 0 0 12px #00eaff;
+}
+
+/* NAVIGATION LINKS */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav-item {
+  display: block;
+  padding: 12px 15px;
+  color: #e6f7ff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 12px;
+  transition: 0.25s;
+}
+
+.nav-item:hover {
+  background: rgba(0, 200, 255, 0.15);
+  color: #00c8ff;
+  box-shadow: 0 0 10px rgba(0, 200, 255, 0.25);
+}
+
+/* BOTTOM THEME BOX */
+.theme-box {
+  margin-top: 40px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  border: 1px solid #00c8ff;
+  box-shadow: 0 0 10px rgba(0, 200, 255, 0.3);
+}
+
+/* PAGE CONTENT */
+.content-area {
+  margin-left: 260px;
+  padding: 30px;
+  width: 100%;
+}

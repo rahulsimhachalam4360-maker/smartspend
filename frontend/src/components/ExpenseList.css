@@ -1,0 +1,70 @@
+.expense-list {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.expense-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 15px;
+  transition: 0.2s ease;
+}
+
+.expense-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.exp-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.exp-icon {
+  font-size: 32px;
+}
+
+.exp-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.exp-category {
+  font-size: 14px;
+  color: #666;
+}
+
+.exp-amount {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.exp-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}

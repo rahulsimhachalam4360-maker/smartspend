@@ -1,0 +1,52 @@
+.analytics-container {
+  padding: 30px;
+  color: white;
+}
+
+.analytics-title {
+  text-align: center;
+  font-size: 32px;
+  color: #00c8ff;
+  margin-bottom: 30px;
+  text-shadow: 0 0 12px #00c8ff;
+}
+
+.chart-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid #00c8ff;
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 200, 255, 0.3);
+}
+
+.chart-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* INSIGHTS */
+.insights-card {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid #00c8ff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.5);
+}
+
+.insights-card h2 {
+  margin-bottom: 15px;
+  color: #00c8ff;
+  text-shadow: 0 0 10px #00c8ff;
+}
+
+.insights-card ul {
+  list-style: none;
+  line-height: 1.8;
+}
+
+.insights-card li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}

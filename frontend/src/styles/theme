@@ -1,0 +1,34 @@
+/* === GLOBAL BACKGROUND === */
+body {
+  margin: 0;
+  padding: 0;
+  background: #0d1117; /* MAIN DARK THEME */
+  font-family: "Inter", sans-serif;
+  color: #e6f7ff; /* GLOBAL TEXT */
+}
+
+/* === GLOBAL PAGE CONTAINER === */
+.page-container {
+  margin-left: 260px; /* sidebar width */
+  padding: 30px;
+}
+
+/* === GLOBAL NEON TITLE === */
+.page-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #00c8ff;
+  text-shadow: 0 0 12px #00eaff;
+  margin-bottom: 25px;
+}
+
+/* === GLOBAL GLASSCARD === */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #00c8ff;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 14px rgba(0, 200, 255, 0.35);
+  backdrop-filter: blur(10px);
+}

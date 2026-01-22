@@ -1,0 +1,76 @@
+.dashboard-container {
+  padding: 30px;
+  margin: auto;
+  max-width: 900px;
+  color: #0b2545;
+}
+
+.dashboard-title {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00c8ff;
+  text-shadow: 0 0 12px #00eaff;
+}
+
+/* Clean + visible card */
+.stat-card {
+  background: rgba(255, 255, 255, 0.18); 
+  border: 1px solid #00c8ff;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 25px;
+
+  color: #0b2545; 
+  font-weight: 600;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 200, 255, 0.25);
+}
+
+/* Title inside card */
+.stat-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #00334e;
+}
+
+/* Value inside card */
+.stat-value {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0095ff;
+  margin-top: 5px;
+}
+
+
+/* CATEGORY LIST */
+.category-block {
+  margin-top: 20px;
+}
+
+.category-item {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #00c8ff;
+  padding: 18px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(0, 200, 255, 0.25);
+}
+
+.category-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e6f7ff;
+}
+
+.category-amount {
+  font-size: 22px;
+  font-weight: 700;
+  color: #00eaff;
+}
